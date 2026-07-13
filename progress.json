@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:38:51.579Z",
+  "generated_at": "2026-09-30T07:38:53.714Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -26,6 +26,45 @@
       "last_pushed_at": "2025-06-29T09:01:30.171Z",
       "language": "python",
       "lines": 8
+    },
+    "problem:2": {
+      "kind": "problem",
+      "id": "2",
+      "title": "Transpose of a Matrix",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/2",
+      "path": "problems/0002-transpose-of-a-matrix",
+      "first_solved_at": "2026-07-13T09:05:26.723Z",
+      "last_pushed_at": "2026-07-13T09:05:26.723Z",
+      "language": "python",
+      "lines": 14
+    },
+    "problem:3": {
+      "kind": "problem",
+      "id": "3",
+      "title": "Reshape Matrix",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/3",
+      "path": "problems/0003-reshape-matrix",
+      "first_solved_at": "2026-07-13T10:24:59.339Z",
+      "last_pushed_at": "2026-07-13T10:24:59.339Z",
+      "language": "python",
+      "lines": 10
+    },
+    "problem:4": {
+      "kind": "problem",
+      "id": "4",
+      "title": "Calculate Mean by Row or Column",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/4",
+      "path": "problems/0004-calculate-mean-by-row-or-column",
+      "first_solved_at": "2026-07-13T10:31:43.188Z",
+      "last_pushed_at": "2026-07-13T10:31:43.188Z",
+      "language": "python",
+      "lines": 4
     }
   }
 }
