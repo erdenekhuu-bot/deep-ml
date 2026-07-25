@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:38:55.683Z",
+  "generated_at": "2026-09-30T07:38:57.496Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -76,6 +76,19 @@
       "path": "problems/0005-scalar-multiplication-of-a-matrix",
       "first_solved_at": "2026-07-14T11:31:38.092Z",
       "last_pushed_at": "2026-07-14T11:31:38.092Z",
+      "language": "python",
+      "lines": 5
+    },
+    "problem:22": {
+      "kind": "problem",
+      "id": "22",
+      "title": "Sigmoid Activation Function Understanding",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/22",
+      "path": "problems/0022-sigmoid-activation-function-understanding",
+      "first_solved_at": "2026-07-25T02:51:32.901Z",
+      "last_pushed_at": "2026-07-25T02:51:32.901Z",
       "language": "python",
       "lines": 5
     }
