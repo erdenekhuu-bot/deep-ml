@@ -14,5 +14,5 @@ def mse(pred, target):
     # TODO
     x=pred.flatten()
     y=target.flatten()
-    sums = [(i.item() - j.item()) ** 2 for i, j in zip(x, y)]
+    sums = [(i.item() - j.item()) * (i.item()-j.item()) for i, j in zip(x, y)]
     return sum(sums) / pred.numel()
