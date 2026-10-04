@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**10** solved · 9 problems · 0 labs · 1 math
+**11** solved · 10 problems · 0 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -20,6 +20,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Scalar Multiplication of a Matrix](https://www.deep-ml.com/problems/5) | easy | 2026-07-14 | [solution](problems/0005-scalar-multiplication-of-a-matrix) |
 | [Sigmoid Activation Function Understanding](https://www.deep-ml.com/problems/22) | easy | 2026-07-25 | [solution](problems/0022-sigmoid-activation-function-understanding) |
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2026-07-13 | [solution](problems/0002-transpose-of-a-matrix) |
+| [Derivative of Softmax](https://www.deep-ml.com/problems/219) | medium | 2026-10-04 | [solution](problems/0219-derivative-of-softmax) |
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-09-30 | [solution](problems/0009-matrix-times-matrix) |
 
 ## Math

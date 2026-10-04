@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:39:03.433Z",
+  "generated_at": "2026-10-04T08:45:28.684Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -128,6 +128,19 @@
       "path": "math/0001-derivatives-and-gradients",
       "first_solved_at": "2026-09-30T07:39:03.432Z",
       "last_pushed_at": "2026-09-30T07:39:03.432Z"
+    },
+    "problem:219": {
+      "kind": "problem",
+      "id": "219",
+      "title": "Derivative of Softmax",
+      "difficulty": "medium",
+      "category": "Calculus",
+      "url": "https://www.deep-ml.com/problems/219",
+      "path": "problems/0219-derivative-of-softmax",
+      "first_solved_at": "2026-10-04T08:45:27.893Z",
+      "last_pushed_at": "2026-10-04T08:45:27.893Z",
+      "language": "python",
+      "lines": 17
     }
   }
 }
