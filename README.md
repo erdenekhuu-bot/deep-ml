@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**18** solved · 17 problems · 0 labs · 1 math
+**19** solved · 18 problems · 0 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -21,6 +21,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2025-06-29 | [solution](problems/0001-matrix-vector-dot-product) |
 | [Mean Squared Error from Scratch](https://www.deep-ml.com/problems/1228) | easy | 2026-10-04 | [solution](problems/1228-mean-squared-error-from-scratch) |
 | [Min-Max Scaling of Feature Values](https://www.deep-ml.com/problems/112) | easy | 2026-11-09 | [solution](problems/0112-min-max-scaling-of-feature-values) |
+| [Reshape and Transpose a Tensor](https://www.deep-ml.com/problems/881) | easy | 2026-11-09 | [solution](problems/0881-reshape-and-transpose-a-tensor) |
 | [Reshape Matrix](https://www.deep-ml.com/problems/3) | easy | 2026-07-13 | [solution](problems/0003-reshape-matrix) |
 | [Scalar Multiplication of a Matrix](https://www.deep-ml.com/problems/5) | easy | 2026-07-14 | [solution](problems/0005-scalar-multiplication-of-a-matrix) |
 | [Sigmoid Activation Function Understanding](https://www.deep-ml.com/problems/22) | easy | 2026-07-25 | [solution](problems/0022-sigmoid-activation-function-understanding) |
