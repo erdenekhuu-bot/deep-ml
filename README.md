@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**19** solved · 18 problems · 0 labs · 1 math
+**20** solved · 19 problems · 0 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -12,6 +12,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
+| [Add a Bias Vector to a Batch via Broadcasting](https://www.deep-ml.com/problems/882) | easy | 2026-11-09 | [solution](problems/0882-add-a-bias-vector-to-a-batch-via-broadcasting) |
 | [Calculate 2x2 Matrix Inverse](https://www.deep-ml.com/problems/8) | easy | 2026-09-30 | [solution](problems/0008-calculate-2x2-matrix-inverse) |
 | [Calculate Mean by Row or Column](https://www.deep-ml.com/problems/4) | easy | 2026-07-13 | [solution](problems/0004-calculate-mean-by-row-or-column) |
 | [Create a Float Tensor from a Python List](https://www.deep-ml.com/problems/880) | easy | 2026-11-03 | [solution](problems/0880-create-a-float-tensor-from-a-python-list) |
