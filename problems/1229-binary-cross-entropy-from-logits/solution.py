@@ -15,4 +15,4 @@ def bce_with_logits(logits, targets):
     targets = targets.float()
     max_val = torch.clamp(logits, min=0)
     loss = max_val - (logits * targets) + torch.log(1 + torch.exp(-torch.abs(logits)))
-    return loss.mean().item()
+    return round(loss.mean().item(), 4)
