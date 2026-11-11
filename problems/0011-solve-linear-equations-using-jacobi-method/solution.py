@@ -13,7 +13,8 @@ def solve_jacobi(A, b, n) -> torch.Tensor:
     diag=A_t.diag()
     nondiag=A_t*mask
 
+    # i saw matrice multiplication without @ sign same as sum() horizontal
     for _ in range(n):
        x = (b_t - (nondiag * x).sum(dim=1)) / diag
-    
+        
     return torch.round(x,decimals=4)
