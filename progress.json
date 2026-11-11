@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:11:13.288Z",
+  "generated_at": "2026-11-11T06:11:52.668Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -405,7 +405,7 @@
       "url": "https://www.deep-ml.com/problems/15",
       "path": "problems/0015-linear-regression-using-gradient-descent",
       "first_solved_at": "2026-11-11T06:06:27.042Z",
-      "last_pushed_at": "2026-11-11T06:10:01.880Z",
+      "last_pushed_at": "2026-11-11T06:10:41.238Z",
       "language": "python",
       "lines": 25
     }
