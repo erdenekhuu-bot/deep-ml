@@ -18,8 +18,8 @@ def linear_regression_gradient_descent(X, y, alpha, iterations) -> torch.Tensor:
     m, n = X_t.shape
     theta = torch.zeros((n, 1), dtype=torch.float32)
     for _ in range(iterations):
-        pred = X_t @ theta 
-        grad = (1 / m) * (X_t.T @ (pred - y_t))
-        theta -= (alpha * grad)
+        hypothes=X_t @ theta # hypothes theta
+        grad=(1/m)*(X_t.T @ (hypothes-y_t))
+        theta-=alpha*grad
 
     return theta.flatten()
