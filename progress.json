@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:01:04.153Z",
+  "generated_at": "2026-11-18T07:03:10.841Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -635,6 +635,19 @@
       "path": "math/0032-softmax-and-cross-entropy",
       "first_solved_at": "2026-11-18T03:51:35.805Z",
       "last_pushed_at": "2026-11-18T03:51:35.805Z"
+    },
+    "problem:44": {
+      "kind": "problem",
+      "id": "44",
+      "title": "Leaky ReLU Activation Function",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/44",
+      "path": "problems/0044-leaky-relu-activation-function",
+      "first_solved_at": "2026-11-18T07:01:57.970Z",
+      "last_pushed_at": "2026-11-18T07:01:57.970Z",
+      "language": "python",
+      "lines": 9
     }
   }
 }
