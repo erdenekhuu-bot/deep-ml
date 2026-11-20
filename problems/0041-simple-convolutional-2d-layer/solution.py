@@ -12,4 +12,4 @@ def simple_conv2d(input_matrix: torch.Tensor, kernel: torch.Tensor, padding: int
     matrix=input_matrix.unsqueeze(0).unsqueeze(0) # because F.conv2d requires 4d tensor, 
     kernel = kernel.unsqueeze(0).unsqueeze(0) # expand dimenstion dim=0
     out = F.conv2d(matrix, kernel, padding=padding,stride=stride)
-    return out.squeeze(0).squeeze(0) # e
+    return out.squeeze(0).squeeze(0) # expand back 4d to 2d tensor
