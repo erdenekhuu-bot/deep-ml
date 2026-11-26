@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T08:20:55.285Z",
+  "generated_at": "2026-11-26T02:35:47.416Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -711,6 +711,19 @@
       "path": "math/0038-log-likelihood-gradients",
       "first_solved_at": "2026-11-23T08:19:41.183Z",
       "last_pushed_at": "2026-11-23T08:19:41.183Z"
+    },
+    "lab:9": {
+      "kind": "lab",
+      "id": "9",
+      "title": "Design Your Own Activation Function",
+      "difficulty": "easy",
+      "category": "Activation Functions",
+      "url": "https://www.deep-ml.com/labs/9",
+      "path": "labs/0009-design-your-own-activation-function",
+      "first_solved_at": "2026-11-26T02:34:31.456Z",
+      "last_pushed_at": "2026-11-26T02:34:31.456Z",
+      "language": "python",
+      "lines": 24
     }
   }
 }
