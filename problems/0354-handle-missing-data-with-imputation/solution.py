@@ -28,7 +28,7 @@ def impute_missing_data(data: torch.Tensor, strategy: str = 'mean') -> torch.Ten
     is_nan=torch.isnan(data)
     mean_col=torch.nanmean(data,dim=0,keepdim=True)
     mediean_col=torch.nanmedian(data,dim=0,keepdim=True).values
-    fills=[]
+    filtered_most=[]
     if strategy=='mean':
         return torch.where(is_nan,mean_col,data)
     elif strategy=='median':
@@ -38,7 +38,7 @@ def impute_missing_data(data: torch.Tensor, strategy: str = 'mean') -> torch.Ten
             col=data[:,j]
             valid=col[~torch.isnan(col)]
             u,c=torch.unique(valid,return_counts=True)
-            fills.append(u[torch.argmax(c)])
-        mode_col=torch.stack(fills).unsqueeze(0)
+            filtered_most.append(u[torch.argmax(c)])
+        mode_col=torch.stack(filtered_most).unsqueeze(0)
         return torch.where(is_nan,mode_col,data)
 
